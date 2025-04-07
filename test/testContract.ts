@@ -1,6 +1,7 @@
+// test/testContract.ts
+
 import { expect } from "chai";
 import { ethers } from "hardhat";
-// import { parseEther } from "ethers/lib/utils";
 import { Bank } from "../typechain-types/Bank"; // Adjust path as necessary
 import { SignerWithAddress } from "@nomicfoundation/hardhat-ethers/signers";
 
